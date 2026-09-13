@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brew Haven Coffee Co. - Artisan Coffee & Pastries</title>
+    <meta name="description" content="Brew Haven Coffee Co. offers artisan coffee, espresso drinks, and fresh pastries in a cozy atmosphere. Visit us for quality coffee and friendly service.">
+    <meta name="keywords" content="coffee shop, espresso, latte, cappuccino, pastries, bakery, local coffee, artisan coffee">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://brew-haven-coffee-website.vercel.app/">
+    <meta property="og:title" content="Brew Haven Coffee Co. - Artisan Coffee & Pastries">
+    <meta property="og:description" content="Brew Haven Coffee Co. offers artisan coffee, espresso drinks, and fresh pastries in a cozy atmosphere.">
+    <meta property="og:image" content="https://brew-haven-coffee-website.vercel.app/assets/images/hero.jpg">
+    <meta property="og:locale" content="en_US">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://brew-haven-coffee-website.vercel.app/">
+    <meta property="twitter:title" content="Brew Haven Coffee Co. - Artisan Coffee & Pastries">
+    <meta property="twitter:description" content="Brew Haven Coffee Co. offers artisan coffee, espresso drinks, and fresh pastries in a cozy atmosphere.">
+    <meta property="twitter:image" content="https://brew-haven-coffee-website.vercel.app/assets/images/hero.jpg">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Source+Sans+Pro:wght@300;400;600&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container nav-container">
+            <a href="#" class="logo">Brew Haven</a>
+            <button class="mobile-menu-btn" aria-label="Toggle mobile menu">
+                <i class="fas fa-bars"></i>
+            </button>
+            <nav class="nav-links">
+                <a href="#hero" class="nav-link">Home</a>
+                <a href="#menu" class="nav-link">Menu</a>
+                <a href="#hours" class="nav-link">Hours</a>
+                <a href="#location" class="nav-link">Location</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="container hero-content">
+            <h1>Brew Haven Coffee Co.</h1>
+            <p>Artisan Coffee & Fresh Pastries</p>
+            <a href="#menu" class="btn">View Our Menu</a>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="section" id="menu">
+        <div class="container">
+            <h2 class="section-title text-center">Our Menu</h2>
+            <div class="menu-grid">
+                <!-- Espresso -->
+                <div class="menu-category">
+                    <div class="menu-category-header">
+                        <h2>Espresso</h2>
+                    </div>
+                    <div class="menu-items">
+                        <div class="menu-item">
+                            <img src="assets/images/espresso.jpg" alt="Espresso shot" class="menu-item-image">
+                            <div class="menu-item-details">
+                                <div class="menu-item-name">
+                                    <span>Espresso Shot</span>
+                                    <span class="menu-item-price">$2.50</span>
+                                </div>
+                                <p class="menu-item-description">Single shot of our house blend, rich and full-bodied</p>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <img src="assets/images/espresso.jpg" alt="Double espresso" class="menu-item-image">
+                            <div class="menu-item-details">
+                                <div class="menu-item-name">
+                                    <span>Double Espresso</span>
+                                    <span class="menu-item-price">$3.50</span>
+                                </div>
+                                <p class="menu-item-description">Double shot for extra energy and intensity</p>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <img src="assets/images/espresso.jpg" alt="Americano" class="menu-item-image">
+                            <div class="menu-item-details">
+                                <div class="menu-item-name">
+                                    <span>Americano</span>
+                                    <span class="menu-item-price">$3.00</span>
+                                </div>
+                                <p class="menu-item-description">Espresso with hot water, smooth and balanced</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Latte -->
+                <div class="menu-category">
+                    <div class="menu-category-header">
+                        <h2>Latte & Specialty Drinks</h2>
+                    </div>
+                    <div class="menu-items">
+                        <div class="menu-item">
+                            <img src="assets/images/latte.jpg" alt="Classic latte" class="menu-item-image">
+                            <div class="menu-item-details">
+                                <div class="menu-item-name">
+                                    <span>Classic Latte</span>
+                                    <span class="menu-item-price">$4.25</span>
+                                </div>
+                                <p class="menu-item-description">Espresso with steamed milk and light foam</p>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <img src="assets/images/latte.jpg" alt="Cappuccino" class="menu-item-image">
+                            <div class="menu-item-details">
+                                <div class="menu-item-name">
+                                    <span>Cappuccino</span>
+                                    <span class="menu-item-price">$4.00</span>
+                                </div>
+                                <p class="menu-item-description">Equal parts espresso, steamed milk, and foam</p>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <img src="assets/images/latte.jpg" alt="Vanilla latte" class="menu-item-image">
+                            <div class="menu-item-details">
+                                <div class="menu-item-name">
+                                    <span>Vanilla Latte</span>
+                                    <span class="menu-item-price">$4.75</span>
+                                </div>
+                                <p class="menu-item-description">Classic latte with house-made vanilla syrup</p>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <img src="assets/images/latte.jpg" alt="Caramel macchiato" class="menu-item-image">
+                            <div class="menu-item-details">
+                                <div class="menu-item-name">
+                                    <span>Caramel Macchiato</span>
+                                    <span class="menu-item-price">$4.75</span>
+                                </div>
+                                <p class="menu-item-description">Vanilla latte topped with caramel drizzle</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Pastries -->
+                <div class="menu-category">
+                    <div class="menu-category-header">
+                        <h2>Fresh Pastries</h2>
+                    </div>
+                    <div class="menu-items">
+                        <div class="menu-item">
+                            <img src="assets/images/pastry.jpg" alt="Croissant" class="menu-item-image">
+                            <div class="menu-item-details">
+                                <div class="menu-item-name">
+                                    <span>Butter Croissant</span>
+                                    <span class="menu-item-price">$3.00</span>
+                                </div>
+                                <p class="menu-item-description">Flaky, buttery pastry baked fresh daily</p>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <img src="assets/images/pastry.jpg" alt="Muffin" class="menu-item-image">
+                            <div class="menu-item-details">
+                                <div class="menu-item-name">
+                                    <span>Blueberry Muffin</span>
+                                    <span class="menu-item-price">$3.50</span>
+                                </div>
+                                <p class="menu-item-description">Moist muffin bursting with fresh blueberries</p>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <img src="assets/images/pastry.jpg" alt="Scone" class="menu-item-image">
+                            <div class="menu-item-details">
+                                <div class="menu-item-name">
+                                    <span>Cranberry Orange Scone</span>
+                                    <span class="menu-item-price">$3.25</span>
+                                </div>
+                                <p class="menu-item-description">Tart cranberry and bright orange zest</p>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <img src="assets/images/pastry.jpg" alt="Danish" class="menu-item-image">
+                            <div class="menu-item-details">
+                                <div class="menu-item-name">
+                                    <span>Apple Cinnamon Danish</span>
+                                    <span class="menu-item-price">$3.75</span>
+                                </div>
+                                <p class="menu-item-description">Sweet apples and warm cinnamon in flaky pastry</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hours Section -->
+    <section class="section" id="hours">
+        <div class="container">
+            <h2 class="section-title text-center">Hours & Location</h2>
+            <div class="hours-container">
+                <div class="hours-info">
+                    <h3>Opening Hours</h3>
+                    <ul class="hours-list">
+                        <li><span>Monday:</span> 6:00 AM - 6:00 PM</li>
+                        <li><span>Tuesday:</span> 6:00 AM - 6:00 PM</li>
+                        <li><span>Wednesday:</span> 6:00 AM - 6:00 PM</li>
+                        <li><span>Thursday:</span> 6:00 AM - 7:00 PM</li>
+                        <li><span>Friday:</span> 6:00 AM - 8:00 PM</li>
+                        <li><span>Saturday:</span> 7:00 AM - 8:00 PM</li>
+                        <li><span>Sunday:</span> 7:00 AM - 5:00 PM</li>
+                    </ul>
+                </div>
+                
+                <div class="location-info">
+                    <h3>Find Us</h3>
+                    <address class="location-address">
+                        Brew Haven Coffee Co.<br>
+                        123 Main Street<br>
+                        Downtown District<br>
+                        Anytown, USA 12345<br>
+                        <br>
+                        Phone: (555) 123-4567<br>
+                        Email: hello@brewhaven.coffee
+                    </address>
+                    <div class="map-container">
+                        <!-- Static map image as fallback -->
+                        <img src="assets/images/map.png" alt="Map showing Brew Haven Coffee Co. location" class="map-image">
+                        <!-- For production, you could use:
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.022612380403!2d-73.9892784846807!3d40.75054197933154!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a22a3bda3cf:0xb30d14a11a4e0df4!2s123+Main+St,+New+York,+NY+10001!5e0!3m2!1sen!2sus!4v1609459200000" 
+                            allowfullscreen="" 
+                            loading="lazy">
+                        </iframe>
+                        -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section" id="contact">
+        <div class="container">
+            <h2 class="section-title text-center">Get In Touch</h2>
+            <div class="contact-form">
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                        <small id="nameError" class="error-message"></small>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                        <small id="emailError" class="error-message"></small>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" placeholder="How can we help you?" required></small>
+                        <small id="messageError" class="error-message"></small>
+                    </div>
+                    <button type="submit" class="btn btn-block">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <div>
+                <h3>Brew Haven Coffee Co.</h3>
+                <p>Serving the community with quality coffee since 2020</p>
+            </div>
+            <div class="footer-links">
+                <a href="#hero">Home</a>
+                <a href="#menu">Menu</a>
+                <a href="#hours">Hours</a>
+                <a href="#location">Location</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="social-icons">
+                <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+        <div class="container text-center" style="padding-top: 1.5rem; border-top: 1px solid rgba(255,255,255,0.1);">
+            <p>&copy; 2024 Brew Haven Coffee Co. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Schema.org LocalBusiness JSON-LD for SEO -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Brew Haven Coffee Co.",
+      "image": [
+        "https://brew-haven-coffee-website.vercel.app/assets/images/hero.jpg"
+       ],
+      "@id": "",
+      "url": "https://brew-haven-coffee-website.vercel.app/",
+      "telephone": "(555) 123-4567",
+      "priceRange": "$",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "123 Main Street",
+        "addressLocality": "Anytown",
+        "addressRegion": "USA",
+        "postalCode": "12345"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 40.7505,
+        "longitude": -73.9893
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "06:00",
+          "closes": "18:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Thursday",
+          "opens": "06:00",
+          "closes": "19:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Friday",
+          "opens": "06:00",
+          "closes": "20:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Saturday",
+          "opens": "07:00",
+          "closes": "20:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Sunday",
+          "opens": "07:00",
+          "closes": "17:00"
+        }
+      ],
+      "sameAs": [
+        "https://www.facebook.com/BrewHavenCoffee",
+        "https://www.instagram.com/brewhavencoffee",
+        "https://twitter.com/brew_haven"
+      ]
+    }
+    </script>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html>
