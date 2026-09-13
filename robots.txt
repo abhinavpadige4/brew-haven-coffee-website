@@ -1,0 +1,11 @@
+# Robots.txt for Brew Haven Coffee Co.
+User-agent: *
+Allow: /
+
+# Disallow admin and private areas
+Disallow: /admin/
+Disallow: /private/
+Disallow: /tmp/
+
+# Sitemap location
+Sitemap: https://brew-haven-coffee-website.vercel.app/sitemap.xml
